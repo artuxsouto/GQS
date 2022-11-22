@@ -29,7 +29,7 @@ public class Conta implements Cadastro {
 	public double getSaldoTotal() {
 		/* Todo: Você precisa implementar este método.
 		A linha abaixo deve ser substituida pelo seu codigo*/
-		return 0.0;
+		return saldo;
 	}
 	
 	public void saque (final double valor) {
@@ -86,13 +86,11 @@ public class Conta implements Cadastro {
 
 	@Override
 	public long getId() {
-		// TODO Auto-generated method stub
-		return 0;
+		return id;
 	}
 
 	@Override
 	public void setId(long id) {
-		// TODO Auto-generated method stub
-
+		this.id = id;
 	}
 }
